@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LogControl.Data\LogControl.Data.csproj" />
+    <ProjectReference Include="..\LogControl.Model\LogControl.Model.csproj" />
+    <ProjectReference Include="..\LogControl.Service\LogControl.Service.csproj" />
+  </ItemGroup>
+
+</Project>

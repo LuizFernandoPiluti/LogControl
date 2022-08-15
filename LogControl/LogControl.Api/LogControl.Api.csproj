@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.15.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LogControl.Application\LogControl.Application.csproj" />
+    <ProjectReference Include="..\LogControl.Data\LogControl.Data.csproj" />
+    <ProjectReference Include="..\LogControl.Model\LogControl.Model.csproj" />
+    <ProjectReference Include="..\LogControl.Service\LogControl.Service.csproj" />
+  </ItemGroup>
+
+
+</Project>
