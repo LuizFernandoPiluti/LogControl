@@ -47,6 +47,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[1.9.2, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.17.1, )"
@@ -71,7 +75,74 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projetos\\LogControl\\LogControl\\LogControl.Kafka\\LogControl.Kafka.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projetos\\LogControl\\LogControl\\LogControl.Kafka\\LogControl.Kafka.csproj",
+        "projectName": "LogControl.Kafka",
+        "projectPath": "D:\\Projetos\\LogControl\\LogControl\\LogControl.Kafka\\LogControl.Kafka.csproj",
+        "packagesPath": "C:\\Users\\Piluti\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\LogControl\\LogControl\\LogControl.Kafka\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Piluti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Projetos\\LogControl\\LogControl\\LogControl.Model\\LogControl.Model.csproj": {
+                "projectPath": "D:\\Projetos\\LogControl\\LogControl\\LogControl.Model\\LogControl.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[1.9.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -114,6 +185,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[1.9.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -168,6 +243,9 @@
               "D:\\Projetos\\LogControl\\LogControl\\LogControl.Data\\LogControl.Data.csproj": {
                 "projectPath": "D:\\Projetos\\LogControl\\LogControl\\LogControl.Data\\LogControl.Data.csproj"
               },
+              "D:\\Projetos\\LogControl\\LogControl\\LogControl.Kafka\\LogControl.Kafka.csproj": {
+                "projectPath": "D:\\Projetos\\LogControl\\LogControl\\LogControl.Kafka\\LogControl.Kafka.csproj"
+              },
               "D:\\Projetos\\LogControl\\LogControl\\LogControl.Model\\LogControl.Model.csproj": {
                 "projectPath": "D:\\Projetos\\LogControl\\LogControl\\LogControl.Model\\LogControl.Model.csproj"
               }
@@ -184,6 +262,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[1.9.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -204,7 +286,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }

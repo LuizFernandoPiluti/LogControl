@@ -1,15 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Confluent.Kafka" Version="1.9.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\LogControl.Data\LogControl.Data.csproj" />
+    <ProjectReference Include="..\LogControl.Kafka\LogControl.Kafka.csproj" />
     <ProjectReference Include="..\LogControl.Model\LogControl.Model.csproj" />
   </ItemGroup>
 

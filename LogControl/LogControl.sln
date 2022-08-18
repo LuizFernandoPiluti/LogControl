@@ -3,25 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogControl.Api", "LogControl.Api\LogControl.Api.csproj", "{24C9CEA3-9375-4364-A6AA-1911D23B9C09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogControl.Api", "LogControl.Api\LogControl.Api.csproj", "{24C9CEA3-9375-4364-A6AA-1911D23B9C09}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{EA4C4063-165F-4CB5-8E80-87C58303C07F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{32705CA2-B5AC-48BA-9522-7023D170533E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogControl.Model", "LogControl.Model\LogControl.Model.csproj", "{3F107CD1-D77F-48CD-B0CF-BC6F9FE2D922}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogControl.Model", "LogControl.Model\LogControl.Model.csproj", "{3F107CD1-D77F-48CD-B0CF-BC6F9FE2D922}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{BE83E37B-0932-4D22-B30C-FA88BD07E128}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogControl.Data", "LogControl.Data\LogControl.Data.csproj", "{12374781-CACA-4E2D-9B4F-61904765E69D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogControl.Data", "LogControl.Data\LogControl.Data.csproj", "{12374781-CACA-4E2D-9B4F-61904765E69D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{F829D60C-6956-4038-A00A-B468D386958A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogControl.Application", "LogControl.Application\LogControl.Application.csproj", "{8E199889-5162-46E7-9FE6-5C37DDCAC1D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogControl.Application", "LogControl.Application\LogControl.Application.csproj", "{8E199889-5162-46E7-9FE6-5C37DDCAC1D4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{7E197F1D-2BAE-4938-B097-CC26712C215D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogControl.Service", "LogControl.Service\LogControl.Service.csproj", "{39D1245A-554C-4B9B-A924-5ACA5A3774FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogControl.Service", "LogControl.Service\LogControl.Service.csproj", "{39D1245A-554C-4B9B-A924-5ACA5A3774FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogControl.Kafka", "LogControl.Kafka\LogControl.Kafka.csproj", "{E76E524A-0F76-410D-B336-D0FB47560DCF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogControl.ProducerKafka", "LogControl.ProducerKafka\LogControl.ProducerKafka.csproj", "{82930141-573E-4EF1-AB9A-EE1FCEED8F25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Executor", "Executor", "{42B77BC4-019D-4A0A-832E-AA56223040FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogControl.Executor", "LogControl.Executor\LogControl.Executor.csproj", "{ED9B4642-47F4-4E00-8967-976989D235C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +57,18 @@ Global
 		{39D1245A-554C-4B9B-A924-5ACA5A3774FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39D1245A-554C-4B9B-A924-5ACA5A3774FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39D1245A-554C-4B9B-A924-5ACA5A3774FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E76E524A-0F76-410D-B336-D0FB47560DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E76E524A-0F76-410D-B336-D0FB47560DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E76E524A-0F76-410D-B336-D0FB47560DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E76E524A-0F76-410D-B336-D0FB47560DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82930141-573E-4EF1-AB9A-EE1FCEED8F25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82930141-573E-4EF1-AB9A-EE1FCEED8F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82930141-573E-4EF1-AB9A-EE1FCEED8F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82930141-573E-4EF1-AB9A-EE1FCEED8F25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED9B4642-47F4-4E00-8967-976989D235C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED9B4642-47F4-4E00-8967-976989D235C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED9B4642-47F4-4E00-8967-976989D235C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED9B4642-47F4-4E00-8967-976989D235C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,7 +78,11 @@ Global
 		{3F107CD1-D77F-48CD-B0CF-BC6F9FE2D922} = {32705CA2-B5AC-48BA-9522-7023D170533E}
 		{12374781-CACA-4E2D-9B4F-61904765E69D} = {BE83E37B-0932-4D22-B30C-FA88BD07E128}
 		{8E199889-5162-46E7-9FE6-5C37DDCAC1D4} = {F829D60C-6956-4038-A00A-B468D386958A}
+		{7E197F1D-2BAE-4938-B097-CC26712C215D} = {32705CA2-B5AC-48BA-9522-7023D170533E}
 		{39D1245A-554C-4B9B-A924-5ACA5A3774FE} = {7E197F1D-2BAE-4938-B097-CC26712C215D}
+		{E76E524A-0F76-410D-B336-D0FB47560DCF} = {BE83E37B-0932-4D22-B30C-FA88BD07E128}
+		{82930141-573E-4EF1-AB9A-EE1FCEED8F25} = {EA4C4063-165F-4CB5-8E80-87C58303C07F}
+		{ED9B4642-47F4-4E00-8967-976989D235C9} = {42B77BC4-019D-4A0A-832E-AA56223040FE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7427945F-1772-41C3-9163-F47B53E6D4BA}

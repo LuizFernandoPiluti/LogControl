@@ -45,9 +45,9 @@ namespace LogControl.Api
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
-                    Title = "Zomato API",
+                    Title = "Log API",
                     Version = "v1",
-                    Description = "Description for the API goes here."
+                    Description = "Api para registrar logs de aplicaçoes"
                                });
             });
         }
@@ -78,7 +78,7 @@ namespace LogControl.Api
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Zomato API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Log API V1");
 
                 // To serve SwaggerUI at application's root page, set the RoutePrefix property to an empty string.
                 c.RoutePrefix = string.Empty;

@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Wvtdj/FA6hGlVz7hiFYlxOtRFSSD5lcRYA7ElQP6gkL6B9+JJpQs+sh6SAmfLW8d75keyxZzurN9f9LJhehKfw==",
+  "dgSpecHash": "slDDEl8s3q6quckWwoIiNPVLq4IhWW3hrzldVQSppFVrMx3BfvO+15dE/0AAko3nnlfLqohgDp2bYKtwEG+rgg==",
   "success": true,
   "projectFilePath": "D:\\Projetos\\LogControl\\LogControl\\LogControl.Application\\LogControl.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Piluti\\.nuget\\packages\\confluent.kafka\\1.9.2\\confluent.kafka.1.9.2.nupkg.sha512",
     "C:\\Users\\Piluti\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
+    "C:\\Users\\Piluti\\.nuget\\packages\\librdkafka.redist\\1.9.2\\librdkafka.redist.1.9.2.nupkg.sha512",
     "C:\\Users\\Piluti\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Piluti\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Piluti\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
@@ -19,6 +21,7 @@
     "C:\\Users\\Piluti\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
     "C:\\Users\\Piluti\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
     "C:\\Users\\Piluti\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Piluti\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512",
     "C:\\Users\\Piluti\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
     "C:\\Users\\Piluti\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
     "C:\\Users\\Piluti\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512"

@@ -13,3 +13,5 @@ D:\Projetos\LogControl\LogControl\LogControl.Service\obj\Debug\netcoreapp3.1\Log
 D:\Projetos\LogControl\LogControl\LogControl.Service\obj\Debug\netcoreapp3.1\LogControl.Service.csproj.CopyComplete
 D:\Projetos\LogControl\LogControl\LogControl.Service\obj\Debug\netcoreapp3.1\LogControl.Service.dll
 D:\Projetos\LogControl\LogControl\LogControl.Service\obj\Debug\netcoreapp3.1\LogControl.Service.pdb
+D:\Projetos\LogControl\LogControl\LogControl.Service\bin\Debug\netcoreapp3.1\LogControl.Kafka.dll
+D:\Projetos\LogControl\LogControl\LogControl.Service\bin\Debug\netcoreapp3.1\LogControl.Kafka.pdb

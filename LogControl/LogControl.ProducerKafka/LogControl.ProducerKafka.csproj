@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.15.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LogControl.Application\LogControl.Application.csproj" />
+    <ProjectReference Include="..\LogControl.Kafka\LogControl.Kafka.csproj" />
+    <ProjectReference Include="..\LogControl.Model\LogControl.Model.csproj" />
+    <ProjectReference Include="..\LogControl.Service\LogControl.Service.csproj" />
+  </ItemGroup>
+
+
+</Project>

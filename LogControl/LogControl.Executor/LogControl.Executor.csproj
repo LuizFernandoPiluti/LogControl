@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LogControl.Application\LogControl.Application.csproj" />
+    <ProjectReference Include="..\LogControl.Data\LogControl.Data.csproj" />
+    <ProjectReference Include="..\LogControl.Kafka\LogControl.Kafka.csproj" />
+    <ProjectReference Include="..\LogControl.Model\LogControl.Model.csproj" />
+    <ProjectReference Include="..\LogControl.Service\LogControl.Service.csproj" />
+  </ItemGroup>
+
+</Project>

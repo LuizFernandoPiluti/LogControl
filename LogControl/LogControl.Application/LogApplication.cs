@@ -8,9 +8,11 @@ namespace LogControl.Application
     public class LogApplication:ILogApplication
     {
         private readonly ILogService _logService;
+   
         public LogApplication(ILogService logService)
         {
             _logService = logService;
+        
         }
 
         public Log Get(string id)
@@ -27,6 +29,8 @@ namespace LogControl.Application
         {
             return _logService.Insert(log); 
         }
+
+   
 
         public Log Update(string id, Log log)
         {
