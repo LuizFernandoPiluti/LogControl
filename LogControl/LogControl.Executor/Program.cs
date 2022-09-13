@@ -46,11 +46,21 @@ namespace LogControl.Executor
             while (true)
             {
                 string msg = serviceKafka.ConsumerMsg();
-                if (string.IsNullOrEmpty(msg))
+                try
                 {
-                    var log = JsonSerializer.Deserialize<Log>(msg);
-                    serviceLog.Insert(log);
+                    if (!string.IsNullOrEmpty(msg))
+                    {
+                        var log = JsonSerializer.Deserialize<Log>(msg);
+                        serviceLog.Insert(log);
+                       
+                    }
                 }
+                catch 
+                {
+
+              
+                }
+            
 
 
 

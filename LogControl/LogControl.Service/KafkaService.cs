@@ -23,17 +23,22 @@ namespace LogControl.Service
             {
                 GroupId = _kafkaConfig.GroupId,
                 BootstrapServers = _kafkaConfig.BootstrapServers,
-                AutoOffsetReset = _kafkaConfig.AutoOffsetReset
+                AutoOffsetReset = _kafkaConfig.AutoOffsetReset,
+                EnableAutoCommit = false,
+                
+                
             };
 
             using var consumerBuilder = new ConsumerBuilder<Ignore, string>(conf).Build();
             {
                 consumerBuilder.Subscribe(_kafkaConfig.Topic);
+   
                 CancellationTokenSource cts = new CancellationTokenSource();
 
                 try
                 {
                     var consumer = consumerBuilder.Consume(cts.Token);
+                    consumerBuilder.Commit();
                     return consumer.Message.Value;
                 }
                 catch (System.Exception ex)
