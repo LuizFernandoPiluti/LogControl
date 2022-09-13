@@ -1,0 +1,13 @@
+D:\Projetos\LogControl\LogControl\LogControl.Data\bin\Debug\netcoreapp3.1\LogControl.Data.deps.json
+D:\Projetos\LogControl\LogControl\LogControl.Data\bin\Debug\netcoreapp3.1\LogControl.Data.dll
+D:\Projetos\LogControl\LogControl\LogControl.Data\bin\Debug\netcoreapp3.1\LogControl.Data.pdb
+D:\Projetos\LogControl\LogControl\LogControl.Data\bin\Debug\netcoreapp3.1\LogControl.Model.dll
+D:\Projetos\LogControl\LogControl\LogControl.Data\bin\Debug\netcoreapp3.1\LogControl.Model.pdb
+D:\Projetos\LogControl\LogControl\LogControl.Data\obj\Debug\netcoreapp3.1\LogControl.Data.csproj.AssemblyReference.cache
+D:\Projetos\LogControl\LogControl\LogControl.Data\obj\Debug\netcoreapp3.1\LogControl.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\LogControl\LogControl\LogControl.Data\obj\Debug\netcoreapp3.1\LogControl.Data.AssemblyInfoInputs.cache
+D:\Projetos\LogControl\LogControl\LogControl.Data\obj\Debug\netcoreapp3.1\LogControl.Data.AssemblyInfo.cs
+D:\Projetos\LogControl\LogControl\LogControl.Data\obj\Debug\netcoreapp3.1\LogControl.Data.csproj.CoreCompileInputs.cache
+D:\Projetos\LogControl\LogControl\LogControl.Data\obj\Debug\netcoreapp3.1\LogControl.Data.csproj.CopyComplete
+D:\Projetos\LogControl\LogControl\LogControl.Data\obj\Debug\netcoreapp3.1\LogControl.Data.dll
+D:\Projetos\LogControl\LogControl\LogControl.Data\obj\Debug\netcoreapp3.1\LogControl.Data.pdb
