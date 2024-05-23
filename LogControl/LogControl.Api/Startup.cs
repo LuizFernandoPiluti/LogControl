@@ -83,6 +83,6 @@ namespace LogControl.Api
                 // To serve SwaggerUI at application's root page, set the RoutePrefix property to an empty string.
                 c.RoutePrefix = string.Empty;
             });
-        }
+        }  
     }
 }
